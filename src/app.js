@@ -84,6 +84,6 @@ app.get('*', (req, res) => {
     })
 })
 
-app.listen(process.env.PORT, () => {
-    console.log(`Server is up on port ${process.env.PORT}.`)
+app.listen(port, () => {
+    console.log(`Server is up on port ${port}.`)
 })
